@@ -1,0 +1,51 @@
+body {
+	background-color: #42a4f4
+}
+
+h1 {
+	color: white;
+	margin: 100px 200px 0px 200px;
+	font-family: verdana;
+}
+
+.quote-border {
+  background-color: white;
+  margin: 50px;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px grey;
+}
+
+h2 {
+	color: #42a4f4;
+	font-family: verdana;
+}
+
+footer {
+	font-family: verdana;
+}
+
+.credits {
+	color: white;
+  	font-family: verdana;
+	margin: 20px;
+}
+
+#newQuoteButton {
+	float: right;
+	margin: -20px 0px 0px 0px;
+}
+
+#tweet-button {
+	float: right;
+	padding: 0px 0px 0px 0px;
+	color: #00aced
+}
+
+#tweet-button:hover {
+	cursor: hand; cursor: pointer;
+}
+
+blockquote {
+	padding: 30px;
+}
