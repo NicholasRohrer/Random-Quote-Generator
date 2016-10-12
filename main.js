@@ -24,7 +24,7 @@ function writeQuote(json) {
 
 // opens a new page and populates tweet with current quote and author
 function tweetQuote() {
-	fullQuote = $('#quote').text() + " - " + $('#author').text();
+	fullQuote = $theQuote.text() + " - " + $theAuthor.text();
 	
 	// check for tweet length over 140 characters
 	if (fullQuote.length > 140) {
