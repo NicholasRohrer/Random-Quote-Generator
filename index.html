@@ -13,24 +13,40 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:700" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-	<h1 class="text-center">
-		Random Quote Generator
-	</h1>
-	
+
+<div class="container-fluid" id="box">
+
 	<!-- everything inside of the quote box-->
-	<div class="quote-border">
-		<!-- button for new quote -->
-		<button class="btn btn-primary" id="newQuoteButton">
-			New Quote
-		</button>
-		<!--quote and author content-->
-		<blockquote>
-			<h2 id="quote"></h2>
-			<footer id="author"></footer>
-		</blockquote>
-		<!-- Twitter button-->
-		<i class="fa fa-twitter fa-3x" id="tweet-button"></i>
+	<div class="row">
+
+		<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="quote-border">
+
+				<!-- button for new quote -->
+				<div class="row">
+					<div class="col-xs-12">
+						<button class="btn btn-primary" id="newQuoteButton">
+							New Quote
+						</button>
+					</div>
+				</div>
+
+				<!--quote and author content-->
+				<div class="row">
+					<div class="col-xs-12">
+						<blockquote>
+							<h2 id="quote"></h2>
+							<footer id="author"></footer>
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- Twitter button-->
+				<i class="fa fa-twitter fa-3x" id="tweet-button"></i>
+
+			</div>
+		</div>
+
 	</div>
 	
 	<!-- signature and credits-->
@@ -39,7 +55,8 @@
 	</p>
 	<p class="text-center credits">
 		Quote API by <a target="_blank" href="https://random-quote-generator.herokuapp.com/">Michael Sanford</a>
-	</p> 
+	</p>
+	 
 </div>
 
 <!-- Latest compiled JavaScript -->
