@@ -36,6 +36,7 @@ h2 {
 	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
+	border-radius: 10px;
 }
 
 #tweet-button {
@@ -58,14 +59,20 @@ h2 {
 	}
 
 	.credits {
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 
 	#newQuoteButton {
-		font-size: 2em;
+		font-size: 5em;
 	}
 
 	#tweet-button {
+		font-size: 3em;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	#newQuoteButton {
 		font-size: 3em;
 	}
 }
