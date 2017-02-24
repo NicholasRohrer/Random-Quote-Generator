@@ -19,7 +19,7 @@ function getQuote() {
 // populates new quote and author content
 function writeQuote(json) {
 	$theQuote.hide().text("\""+json.quote+"\"").fadeIn();
-	$theAuthor.hide().text(json.author).fadeIn();
+	$theAuthor.hide().text("- " + json.author).fadeIn();
 }
 
 // opens a new page and populates tweet with current quote and author

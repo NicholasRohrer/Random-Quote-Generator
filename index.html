@@ -16,34 +16,26 @@
 
 <div class="container-fluid" id="box">
 
+	<!-- button for new quote -->
+	<div class="row text-center">
+		<div class="col-xs-4 col-xs-offset-4">
+			<button class="btn btn-primary" id="newQuoteButton">
+				New Quote
+			</button>
+		</div>
+	</div>
 	<!-- everything inside of the quote box-->
 	<div class="row">
-
 		<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 			<div class="quote-border">
 
-				<!-- button for new quote -->
-				<div class="row">
-					<div class="col-xs-12">
-						<button class="btn btn-primary" id="newQuoteButton">
-							New Quote
-						</button>
-					</div>
-				</div>
-
 				<!--quote and author content-->
-				<div class="row">
+				<div class="row text-center">
 					<div class="col-xs-12">
-						<blockquote>
-							<h2 id="quote"></h2>
-							<footer id="author"></footer>
-						</blockquote>
+						<h2 id="quote"></h2>
+						<h3><span id="author"></span><i class="fa fa-twitter fa-3x" id="tweet-button"></i></h3>
 					</div>
 				</div>
-
-				<!-- Twitter button-->
-				<i class="fa fa-twitter fa-3x" id="tweet-button"></i>
-
 			</div>
 		</div>
 

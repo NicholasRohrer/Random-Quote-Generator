@@ -1,5 +1,6 @@
 body {
 	background-color: #42a4f4;
+	font-size: 16px;
 }
 
 #box {
@@ -17,10 +18,12 @@ body {
 h2 {
 	color: #42a4f4;
 	font-family: 'Indie Flower', cursive;
+	font-size: 3em;
 }
 
-footer {
+#author {
 	font-family: 'Open Sans', sans-serif;
+	font-size: em;
 }
 
 .credits {
@@ -30,21 +33,39 @@ footer {
 }
 
 #newQuoteButton {
-	float: right;
-	margin: -20px 0px 0px 0px;
+	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
 }
 
 #tweet-button {
-	float: right;
-	padding: 0px 0px 0px 0px;
-	color: #00aced
+	margin-left: 20px;
+	color: #00aced;
+	font-size: 2em;
 }
 
 #tweet-button:hover {
 	cursor: hand; cursor: pointer;
 }
 
-blockquote {
-	padding: 30px;
+@media screen and (min-width: 532px){
+	h2 {
+		font-size: 4em;
+	}
+
+	#author {
+		font-size: 1.2em;
+	}
+
+	.credits {
+		font-size: 2em;
+	}
+
+	#newQuoteButton {
+		font-size: 2em;
+	}
+
+	#tweet-button {
+		font-size: 3em;
+	}
 }
