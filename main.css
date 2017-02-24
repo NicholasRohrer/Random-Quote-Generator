@@ -18,61 +18,50 @@ body {
 h2 {
 	color: #42a4f4;
 	font-family: 'Indie Flower', cursive;
-	font-size: 3em;
+	font-size: 4em;
 }
 
 #author {
 	font-family: 'Open Sans', sans-serif;
-	font-size: em;
+	font-size: 1.2em;
 }
 
 .credits {
 	color: white;
   	font-family: 'Open Sans', sans-serif;
 	margin: 20px;
+	font-size: 1.5em;
 }
 
 #newQuoteButton {
 	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 2em;
+	font-size: 3em;
 	border-radius: 10px;
 }
 
 #tweet-button {
 	margin-left: 20px;
 	color: #00aced;
-	font-size: 2em;
+	font-size: 3em;
 }
 
 #tweet-button:hover {
 	cursor: hand; cursor: pointer;
 }
 
-@media screen and (min-width: 532px){
+@media only screen and (max-width: 768px){
+
 	h2 {
-		font-size: 4em;
+		font-size: 3em;
+	}
+
+	#newQuoteButton {
+		font-size: 3em;
 	}
 
 	#author {
-		font-size: 1.2em;
-	}
-
-	.credits {
-		font-size: 2.5em;
-	}
-
-	#newQuoteButton {
-		font-size: 5em;
-	}
-
-	#tweet-button {
-		font-size: 3em;
+		font-size: 1em;
 	}
 }
 
-@media screen and (min-width: 767px) {
-	#newQuoteButton {
-		font-size: 3em;
-	}
-}
